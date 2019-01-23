@@ -1,0 +1,12 @@
+Cython==0.27.3
+darkflow==1.0.0
+imutils==0.5.1
+labelImg==1.7.0
+matplotlib==2.1.2
+numpy==1.14.5
+opencv-contrib-python==3.4.1.15
+openpyxl==2.4.10
+pandas==0.22.0
+Pillow==5.0.0
+tensorboard==1.8.0
+tensorflow==1.8.0
