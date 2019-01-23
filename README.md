@@ -1,4 +1,4 @@
-List of libraries:
+### List of libraries:
 
 	cv2
 	darkflow
@@ -12,7 +12,7 @@ List of libraries:
 
 
 
-Technical Stack:
+### Technical Stack:
 
 	Python
 	Tensorflow (darkflow YOLO in based on it)
@@ -20,13 +20,13 @@ Technical Stack:
 
 
 
-Training: 
+### Training: 
 
 	Training of YOLOv2 was done using "tiny-yolo-voc" weights
 
 	
 
-Note:
+### Note:
 
 	We don't need to handle the resolution of the image, as it is handled by YOLOv2 internally.
 
@@ -39,19 +39,19 @@ Note:
 
 
 
-Further Improvements:
+### Further Improvements:
 
 	Future if we wish to make it resolution independent we can give back the ratio of the length of the object with respect to length of the image.
 
 
 
-Run Command : 
+### Run Command : 
 
 	python Detection_position_measurement_service.py -m <cfg_path> -l <labels_path> -c <cpkt_path> -i <image_path>
 
 
 
-Dataset Description:
+### Dataset Description:
 
 	Total number of Images : 544
 
@@ -63,7 +63,7 @@ Dataset Description:
 	Rectangle: 741
 
 
-Output:
+### Output:
 
 	It will give you 3 outputs.
 
